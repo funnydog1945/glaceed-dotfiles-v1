@@ -49,4 +49,4 @@
 <h2 align="center">✦ Credits ✦</h2>
 
 - [adi1090x](https://github.com/adi1090x) for the rofi menus
-- [OlyAhamed](https://github.com/OlyAhamed) for the swaync config and wallpaper switcher
+- [OlyAhamed](https://github.com/OlyAhamed) for the swaync config
