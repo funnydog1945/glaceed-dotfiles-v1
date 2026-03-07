@@ -10,13 +10,18 @@
 - 🫥 Translucent look
 - 😎 Clean Waybar config
 - 📦 App Launcher
+- 🖼️ Wallpaper Switcher
 - 🎚️ Control Center
 
 <h2 align="center">✦ Keybinds ✦</h2>
 
 - `SUPER` + `Space` - Open Launcher
+- `SUPER` + `Q` - Close Window
+- `SUPER` + `L` - Lock Screen
 - `SUPER` + `T` / `Enter` - Open Terminal
 - `SUPER` + `W` - Open Browser
+- `SUPER` + `E` - Open File manager
+- `SUPER` + `C` - Open VSCodium
 
 <h2 align="center">✦ Apps ✦</h2>
 
@@ -33,7 +38,7 @@
 - swaync
 - rofi
 - waybar-mpris
-- swww
+- awww
 - ttf-jetbrains-mono-nerd
 
 <h2 align="center">✦ Inspiration ✦</h2>
@@ -43,5 +48,5 @@
 
 <h2 align="center">✦ Credits ✦</h2>
 
-- [adi1090x](https://github.com/adi1090x/rofi) for the rofi menus
-- [OlyAhamed](https://github.com/OlyAhamed/Linux/tree/main/.config/swaync) for the swaync config
+- [adi1090x](https://github.com/adi1090x) for the rofi menus
+- [OlyAhamed](https://github.com/OlyAhamed) for the swaync config and wallpaper switcher
