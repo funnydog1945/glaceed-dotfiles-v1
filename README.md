@@ -2,6 +2,7 @@
 
 <h2 align="center">✦ Showcase ✦</h2>
 
+https://github.com/user-attachments/assets/34cd63d0-ba6e-4534-98b0-322df7ac9412
 
 
 <h2 align="center">✦ Features ✦</h2>
@@ -22,6 +23,7 @@
 - `SUPER` + `W` - Open Browser
 - `SUPER` + `E` - Open File manager
 - `SUPER` + `C` - Open VSCodium
+- `SUPER` + `N` - Open Notifications Panel
 
 <h2 align="center">✦ Apps ✦</h2>
 
@@ -33,6 +35,7 @@
 
 - hyprland
 - hyprlock
+- hyprpicker
 - waybar
 - wlogout
 - swaync
