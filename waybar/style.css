@@ -1,0 +1,201 @@
+@import 'colors/mocha.css';
+
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: "Google Sans Flex", "JetBrainsMono Nerd Propo", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+window#waybar {
+    background-color: alpha(@base, 0.8);
+    transition-duration: .5s;
+    /* border-radius: 0 0 25px 25px; */
+    border-radius: 25px;
+}
+
+#custom-seperator,
+#custom-seperator2 {
+    font-weight: lighter;
+    color: alpha(@text, .1);
+}
+/*
+window#waybar.empty {
+    background-color: transparent;
+}
+window#waybar.solo {
+    background-color: #FFFFFF;
+}
+*/
+
+
+
+button {
+    /* Use box-shadow instead of border so the text isn't offset */
+    
+    background-color: @primary;
+    /* Avoid rounded borders under each button name */
+    border: none;
+    border-radius: 0;
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+
+
+/* you can set a style on hover for any module like this */
+
+
+#workspaces button {
+    padding: 0px 5px;
+    margin: 9 6px;
+    border-radius: 16px;
+    background-color: transparent;
+    min-width: 10px;
+    color: @subtext0;
+    transition: all 0.1s ease-out;
+}
+
+#workspaces button:hover {
+    /* background: linear-gradient(0deg,rgb(173, 211, 255) 0%, rgb(143, 121, 240) 100%); */
+    background-color: alpha(@surface2, .4);
+
+    min-width: 18px;
+    padding: 0 5px;
+    margin: 6 2px;
+    transition: all 0.2s ease-out;
+    
+}
+
+#workspaces button.active {
+    /* background: linear-gradient(0deg,rgb(173, 211, 255) 0%, rgb(143, 121, 240) 100%); */
+    background-color: @teal;
+    color: @surface1;
+    min-width: 25px;
+    padding: 0 5px;
+    margin: 4px 2px;
+    transition: all 0.3s ease-out;
+    
+}
+
+#workspaces button.urgent {
+    background: @yellow;
+    color: @surface1;
+    transition: all 0.1s ease-out;
+}
+
+
+
+#window
+
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > #workspaces {
+    margin-left: 0;
+}
+
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child > #workspaces {
+    margin-right: 0;
+}
+#pulseaudio,
+#backlight,
+#custom-notification,
+#network,
+tooltip,
+#tray,
+/* .modules-right, */
+#custom-launcher,
+#gamemode,
+#clock,
+#custom-waybar-mpris {
+    margin: 5px 5px;
+    padding: 2px 8px;
+    border-radius: 20px;
+    
+}
+
+tooltip,
+#workspaces,
+/* .modules-right, */
+#custom-launcher:hover,
+#custom-notification:hover,
+#gamemode,
+#clock,
+#custom-waybar-mpris,
+#mpd {
+    background: alpha(@surface1, .3);
+    /* border: 2px solid @surface2; */
+    transition: all 0.2s ease-out;
+    
+}
+
+
+#custom-launcher {
+    color: @sky;
+    padding: 0 12px;
+    margin-left: 16px;
+}
+#clock {
+    color: @sapphire;
+}
+#custom-waybar-mpris {
+    color: @lavender;
+    transition: opacity 0.3s ease;
+}
+#battery{
+    border-radius: 15px;
+    color: @crust;
+    padding: 0 10px;
+    margin: 9px 10px;
+}
+
+#battery.full {
+    background-color: @green;
+}
+#battery.normal {
+    background-color: @text;
+}
+#battery.warning {
+    background-color: @yellow;
+}
+#battery.critical {
+    background-color: @red;
+}
+
+
+#network{
+    color: @yellow;
+}
+#backlight {
+    color: @peach;
+}
+#pulseaudio{
+    color: @red;
+}
+#custom-notification{
+    color: @teal;
+    padding: 0 10px;
+    margin: 5px 0;
+}
+#hyprland-window {
+    color: @sky;
+}
+
+/* #battery,
+#pulseaudio,
+#custom-notification,
+#network,
+#tray {
+    font-size: 20px;
+    margin: 0 1;
+    padding: 0 5px;
+} */
+
+#workspaces {
+    margin: 5px 0;
+    padding: 0 2px;
+    border-radius: 18px;
+}
