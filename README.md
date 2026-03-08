@@ -43,6 +43,7 @@ https://github.com/user-attachments/assets/34cd63d0-ba6e-4534-98b0-322df7ac9412
 - waybar-mpris
 - awww
 - ttf-jetbrains-mono-nerd
+- Google Sans Flex font
 
 <h2 align="center">✦ Inspiration ✦</h2>
 
