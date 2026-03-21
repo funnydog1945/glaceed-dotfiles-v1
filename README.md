@@ -7,8 +7,7 @@ https://github.com/user-attachments/assets/34cd63d0-ba6e-4534-98b0-322df7ac9412
 
 <h2 align="center">✦ Features ✦</h2>
 
-- 🌈 Catppuccin colors
-- 🫥 Translucent look
+- 🌈 Catppuccin palette
 - 😎 Clean Waybar config
 - 📦 App Launcher
 - 🖼️ Wallpaper Switcher
@@ -27,7 +26,7 @@ https://github.com/user-attachments/assets/34cd63d0-ba6e-4534-98b0-322df7ac9412
 
 <h2 align="center">✦ Apps ✦</h2>
 
-- Firefox
+- Zen Browser
 - Kitty
 - Nautilus
 
@@ -44,6 +43,7 @@ https://github.com/user-attachments/assets/34cd63d0-ba6e-4534-98b0-322df7ac9412
 - awww
 - ttf-jetbrains-mono-nerd
 - Google Sans Flex font
+- Steelfish font
 
 <h2 align="center">✦ Inspiration ✦</h2>
 
