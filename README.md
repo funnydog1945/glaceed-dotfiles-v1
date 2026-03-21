@@ -3,7 +3,10 @@
 <h2 align="center">✦ Showcase ✦</h2>
 
 
-https://github.com/user-attachments/assets/e59cd780-8f25-4c64-9fa4-8bd37782fd2d
+
+
+https://github.com/user-attachments/assets/b011e070-91a2-4b90-8509-b726113cb195
+
 
 
 
@@ -14,6 +17,7 @@ https://github.com/user-attachments/assets/e59cd780-8f25-4c64-9fa4-8bd37782fd2d
 - 📦 App Launcher
 - 🖼️ Wallpaper Switcher
 - 🎚️ Control Center
+- 🔒 Stylish Lock Screen
 
 <h2 align="center">✦ Keybinds ✦</h2>
 
