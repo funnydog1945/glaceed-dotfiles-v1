@@ -1,8 +1,10 @@
-# <h1 align="center">「 ✦ glaceed's Hyprland dotfiles V1 ✦ 」</h1>
-
+# <h1 align="center">「 ✦ glaceed's Hyprland dotfiles ✦ 」</h1>
+<h3 align="center">a simple hyprland setup built by a beginner :3</h3>
 <h2 align="center">✦ Showcase ✦</h2>
 
-https://github.com/user-attachments/assets/34cd63d0-ba6e-4534-98b0-322df7ac9412
+
+https://github.com/user-attachments/assets/e59cd780-8f25-4c64-9fa4-8bd37782fd2d
+
 
 
 <h2 align="center">✦ Features ✦</h2>
