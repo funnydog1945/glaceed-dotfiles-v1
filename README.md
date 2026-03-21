@@ -60,3 +60,7 @@ https://github.com/user-attachments/assets/b011e070-91a2-4b90-8509-b726113cb195
 
 - [adi1090x](https://github.com/adi1090x) for the rofi menus
 - [OlyAhamed](https://github.com/OlyAhamed) for the swaync config
+
+<h2 align="center">✦ Note ✦</h2>
+- Some panels on control center such as bluetooth and wifi don't function properly ;w;
+- Bugs are to be expected since I am a complete beginner to all of this.
