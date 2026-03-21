@@ -12,7 +12,7 @@ https://github.com/user-attachments/assets/b011e070-91a2-4b90-8509-b726113cb195
 
 <h2 align="center">✦ Features ✦</h2>
 
-- 🌈 Catppuccin palette
+- 🌈 Catppuccin Mocha palette
 - 😎 Clean Waybar config
 - 📦 App Launcher
 - 🖼️ Wallpaper Switcher
