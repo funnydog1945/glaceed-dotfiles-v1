@@ -12,10 +12,12 @@
 }
 
 window#waybar {
-    background-color: alpha(@base, 0.8);
+background: @base;
+/* background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%); */
     transition-duration: .5s;
+
     /* border-radius: 0 0 25px 25px; */
-    border-radius: 25px;
+    border-radius: 28px;
 }
 
 #custom-seperator,
@@ -72,9 +74,9 @@ button {
 
 #workspaces button.active {
     /* background: linear-gradient(0deg,rgb(173, 211, 255) 0%, rgb(143, 121, 240) 100%); */
-    background-color: @teal;
+    background-color: @lavender;
     color: @surface1;
-    min-width: 25px;
+    min-width: 22px;
     padding: 0 5px;
     margin: 4px 2px;
     transition: all 0.3s ease-out;
@@ -82,7 +84,7 @@ button {
 }
 
 #workspaces button.urgent {
-    background: @yellow;
+    background: @text;
     color: @surface1;
     transition: all 0.1s ease-out;
 }
@@ -126,7 +128,7 @@ tooltip,
 #clock,
 #custom-waybar-mpris,
 #mpd {
-    background: alpha(@surface1, .3);
+    background: alpha(@surface0, .3);
     /* border: 2px solid @surface2; */
     transition: all 0.2s ease-out;
     
@@ -134,12 +136,12 @@ tooltip,
 
 
 #custom-launcher {
-    color: @sky;
+    color: @lavender;
     padding: 0 12px;
     margin-left: 16px;
 }
 #clock {
-    color: @sapphire;
+    color: @lavender;
 }
 #custom-waybar-mpris {
     color: @lavender;
@@ -153,7 +155,7 @@ tooltip,
 }
 
 #battery.full {
-    background-color: @green;
+    background-color: @text;
 }
 #battery.normal {
     background-color: @text;
@@ -166,17 +168,8 @@ tooltip,
 }
 
 
-#network{
-    color: @yellow;
-}
-#backlight {
-    color: @peach;
-}
-#pulseaudio{
-    color: @red;
-}
 #custom-notification{
-    color: @teal;
+    color: @lavender;
     padding: 0 10px;
     margin: 5px 0;
 }
