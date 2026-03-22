@@ -23,6 +23,7 @@ https://github.com/user-attachments/assets/b011e070-91a2-4b90-8509-b726113cb195
 
 - `SUPER` + `Space` - Open Launcher
 - `SUPER` + `Q` - Close Window
+- `SUPER` + `F` - Fullscreen a window
 - `SUPER` + `L` - Lock Screen
 - `SUPER` + `T` / `Enter` - Open Terminal
 - `SUPER` + `W` - Open Browser
